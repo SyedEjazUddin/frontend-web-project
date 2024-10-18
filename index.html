@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <img id="img1" src="gh.jpg" alt="currency logo">
+        <h2>CURRENCY CONVERTER</h2>
+        <h3>Amount: </h3>
+        
+        <input type="number" id="input">
+        
+        <select name="Currency" id="select1">
+            <option value="USD">USD</option>
+            <option value="PKR">PKR</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="JPY">JPY</option>
+            <option value="INR">INR</option>
+        </select>
+
+        <select name="Currency" id="select2">
+            <option value="PKR">PKR</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="JPY">JPY</option>
+            <option value="INR">INR</option>
+        </select>
+
+
+        <button onclick="convert()">Convert</button>
+        <div class="agha">
+            <P id="res"></P>
+        </div>
+    </div>
+
+    <script src="script.js" charset="UTF-8"></script>
+</body>
+</html>

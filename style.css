@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(as.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img1{
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    border-radius: 40%;
+    position: relative;
+    left: 120px;
+    top: 36px;
+    margin: 0;
+    padding: 0;
+    /* box-shadow:0px 8px 15px rgba(30, 60, 30, 0.50); */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* White shadow */
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+h3{
+    position: relative;
+    top: 130px;
+    left: 22px;
+    color: white;
+}
+.container{
+    height: 600px;
+    width: 370px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(3px); /* Blurs the background */
+    -webkit-backdrop-filter: blur(6px); /* Safari support */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* White shadow */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+#input {
+    position: relative;
+    top: 130px;
+    border: none;
+    outline: none;
+    width: 300px;
+    padding: 10px;
+    background: transparent;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid white; 
+    left: 22px;
+    color: white;
+}
+
+
+#select1{
+    border: none;
+    outline: none;
+    padding: 12px;
+    position: relative;
+    top: 160px;
+    left: 6px;
+    width: 170px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* White shadow */
+}
+#select2{
+    border: none;
+    outline: none;
+    padding: 12px;
+    position: relative;
+    top: 160px;
+    left: 20px;
+    width: 170px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* White shadow */
+}
+#select1:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* White shadow */
+
+}
+#select2:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* White shadow */
+
+}
+button{
+    color: white;
+    border: none;
+    outline: none;
+    padding: 17px;
+    position: relative;
+    top: 190px;
+    left: 20px;
+    width: 330px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 790;
+    background-color: #03045e;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.8); /* White shadow */
+}
+button:hover{
+    box-shadow: 0 4px 8px rgba(235, 235, 235, 0.5); /* White shadow */
+
+}
+ .agha{
+    border-radius: 5px;
+    height: 50px;
+    width: 330px;
+    background-color: #023e8a;
+    position: relative;
+    top: 198px;
+    left: 20px;
+    text-align: center;
+} 
+
+/* .agha {
+    border-radius: 5px;
+    height: 50px;
+    width: 330px;
+    background-color: #023e8a;
+    position: relative;
+    top: 198px;
+    left: 20px;
+    color: white;  /* Ensure the text is visible on dark background */
+    /* padding: 10px; /* Add some padding */
+    /* font-size: 16px; Adjust font size */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */ 
+    /* text-align: center; */
+    /* overflow: hidden; Prevent overflow */
+    /* text-overflow: ellipsis; Add ellipsis if text is too long */
+    /* white-space: nowrap; Prevent text wrapping */
+    /* box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3); Add white box shadow */
+/* }/ */ 
+
+
+#res{
+    position: relative;
+    /* left: 100px; */
+    top: 16px; 
+    display: none;
+    color: white;
+    font-weight: bolder;
+}
